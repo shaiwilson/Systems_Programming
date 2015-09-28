@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 
 #define MAXOP 100 /* max size of line */
@@ -17,59 +18,61 @@ int main()
 {
 
 	char input [MAXOP]; /* user input string */
+	char *c; /* user input string */
 	int i; /* counter */
-	char *c; /* pointer to input string */
 	char out; /* looks for second symbol, temp holding */
-	int valid = 1; /* boolean for matches */
+	int valid = 0; /* boolean for matches */
 
-	c = input;
-
-	printf ("Enter your input that contains parenthesis or Q to quit: \n");
-	scanf ( "%[^\n]", input);
-	/* printf ("The string you entered is: %s\n", input); */
-
-	/* loop until NULL is found */
-	for (i = 0; c[i]; i++)
-	{
-		if (c[i] == '(' || c[i] == '[' || c[i] == '{' || c[i] == '<')
-			{ 
-				
-				//push element to stack
-				push(c[i]);
-
-				/* TESTING 
-				*printf("we found a left bracket!\n");
-				*printf("%c\n",c[i]);
-				*/
-			}
-		else if (c[i] == ')' || c[i] == ']' || c[i] == '}' || c[i] == '>')
+	do {
+		/* save user input */
+		printf ("Enter your input that contains parenthesis or Q to quit: ");
+		c = NULL;
+		scanf ("%s", input);
+		printf("input is = %s\n",input);
+		c = input;
+		
+        	/* loop until NULL is found */
+		for (i = 0; c[i]; i++)
 		{
-				
-				// pop element from stack
-				out = pop(); // hold onto pop value
-				valid = match(out, c[i]);
-				if (!valid) 
-				{
-					valid = 0; 
+			if (c[i] == '(' || c[i] == '[' || c[i] == '{' || c[i] == '<')
+				{ 
+					
+					//push element to stack
+					push(c[i]);
+
+					/* TESTING 
+					*printf("we found a left bracket!\n");
+					*printf("%c\n",c[i]);
+					*/
 				}
-				else 
-					valid = 1;
-		}	
-		else; 
-	}
-	
-	if (valid)
-	{
-		printf("The input is balanced\n");
-	}
-	else
-	{
-		printf("The input is not balanced\n");
-	}
+			else if (c[i] == ')' || c[i] == ']' || c[i] == '}' || c[i] == '>')
+			{
+					
+					// pop element from stack
+					out = pop(); // hold onto pop value
+					valid = match(out, c[i]);
+					if (valid) 
+					{
+						valid = 1; //TRUE
+					}
+					else 
+						valid = 0; //FALSE
+			}	
+		}
+
+		if (valid)
+		{
+			printf("The input is balanced\n"); 
+		}
+		else
+		{
+			printf("The input is not balanced\n");
+		}
+
+	} while (strcmp("Q", c) != 0);
 
 	return 0;
 }
-
 
 
 /* FUNCTIONS */
