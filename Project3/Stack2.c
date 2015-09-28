@@ -11,7 +11,7 @@ char pop(void);
 int match(char, char);
 
 int sp = 0; /* stores value of next free stack position */
-double val[MAXVAL];
+double val[MAXVAL]; /* stores max value of stack */
 
 int main()
 {
@@ -24,16 +24,9 @@ int main()
 
 	c = input;
 
-	/*
-	* unused values
-	* 
-	* int val[MAXVAL]; value stack 
-	* save user input */
-
-
-	printf ("Enter a string of characters: \n");
+	printf ("Enter your input that contains parenthesis or Q to quit: \n");
 	scanf ( "%[^\n]", input);
-	printf ("The string you entered is: %s\n", input);
+	/* printf ("The string you entered is: %s\n", input); */
 
 	/* loop until NULL is found */
 	for (i = 0; c[i]; i++)
@@ -51,32 +44,30 @@ int main()
 			}
 		else if (c[i] == ')' || c[i] == ']' || c[i] == '}' || c[i] == '>')
 		{
-				// TODO
+				
 				// pop element from stack
-				// if there is a match
-				// print it matched
 				out = pop(); // hold onto pop value
 				valid = match(out, c[i]);
 				if (!valid) 
 				{
-					printf("Syntax error\n");
-					return 1; // end program
+					valid = 0; 
 				}
 				else 
-				{
-					printf("There is a match\n");
-					printf("%c %c\n",out, c[i]);
-				}
-
+					valid = 1;
 		}	
-		else 
-		{
-			// skip over a string
-		}
+		else; 
 	}
 	
-	return 0;
+	if (valid)
+	{
+		printf("The input is balanced\n");
+	}
+	else
+	{
+		printf("The input is not balanced\n");
+	}
 
+	return 0;
 }
 
 
@@ -127,15 +118,4 @@ int match(char left, char right)
 	else
 		return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
 
