@@ -1,0 +1,76 @@
+Script started on Mon Sep 28 14:12:40 2015
+[1m[7m%[27m[1m[0m                                                                              ]7;file://neon/Users/chachashai/Documents/CompSci/CS221/Project1[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K../check[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m ./check[K
+zsh: no such file or directory: ./check
+[1m[7m%[27m[1m[0m                                                                              ]7;file://neon/Users/chachashai/Documents/CompSci/CS221/Project1[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [Kmmake check[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m make check[K
+cc -Wall -g    check.c   -o check
+[1m[7m%[27m[1m[0m                                                                              ]7;file://neon/Users/chachashai/Documents/CompSci/CS221/Project1[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K../check[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m ./check[K
+Enter a number in the form (XXX)XXX-XXXX
+(415)422-5555
+The phone number is invalid
+[1m[7m%[27m[1m[0m                                                                              ]7;file://neon/Users/chachashai/Documents/CompSci/CS221/Project1[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K./check[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m ./check[K
+Enter a number in the form (XXX)XXX-XXXX
+(415)422-55555
+The phone number is invalid
+[1m[7m%[27m[1m[0m                                                                              ]7;file://neon/Users/chachashai/Documents/CompSci/CS221/Project1[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K./check[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m ./check[K
+Enter a number in the form (XXX)XXX-XXXX
+415-422-5555
+The phone number is invalid
+[1m[7m%[27m[1m[0m                                                                              ]7;file://neon/Users/chachashai/Documents/CompSci/CS221/Project1[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K./check[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m ./check[K
+Enter a number in the form (XXX)XXX-XXXX
+(415)a22-5555
+The phone number is invalid
+[1m[7m%[27m[1m[0m                                                                              ]7;file://neon/Users/chachashai/Documents/CompSci/CS221/Project1[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K./check[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m ./check[K
+Enter a number in the form (XXX)XXX-XXXX
+(415)-4225555
+The phone number is invalid
+[1m[7m%[27m[1m[0m                                                                              ]7;file://neon/Users/chachashai/Documents/CompSci/CS221/Project1[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [Keexit[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m exit[K
+
+Script done on Mon Sep 28 14:13:26 2015

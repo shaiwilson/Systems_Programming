@@ -1,0 +1,45 @@
+Script started on Mon Sep 28 14:11:58 2015
+[1m[7m%[27m[1m[0m                                                                              ]7;file://neon/Users/chachashai/Documents/CompSci/CS221/Project1[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K../alphabet[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m ./alphabet[K
+zsh: no such file or directory: ./alphabet
+[1m[7m%[27m[1m[0m                                                                              ]7;file://neon/Users/chachashai/Documents/CompSci/CS221/Project1[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K./alphabets[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m ./alphabets[K
+Enter a string: 
+The quick brown fox jumps over the lazy dog 1 2 3 4 5 6 7 8 9 0
+11113112111111411212211111
+[1m[7m%[27m[1m[0m                                                                              ]7;file://neon/Users/chachashai/Documents/CompSci/CS221/Project1[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K????  A man, a plan, a canal - Panama!![?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m ???  A man, a plan, a canal - Panama!![K
+[1m[7m%[27m[1m[0m                                                                              ]7;file://neon/Users/chachashai/Documents/CompSci/CS221/Project1[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m ???  A man, a plan, a canal - Panama./alphabets[K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m ???  A man, a plan, a canal - Panama./alphabets[K                                    ?  ./alphabets s[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m ./alphabets[K
+Enter a string: 
+???  A man, a plan, a canal - Panama!!
+100100000000224020000000000
+[1m[7m%[27m[1m[0m                                                                              ]7;file://neon/Users/chachashai/Documents/CompSci/CS221/Project1[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m [Keexit[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/CompSci/CS221/Project1[39m
+[0m[34m➜[39m exit[K
+
+Script done on Mon Sep 28 14:12:32 2015
