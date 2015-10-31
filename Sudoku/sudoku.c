@@ -1,37 +1,110 @@
 #include <stdio.h>
+#include <ctype.h>
+#include <String.h>
+#define LENGTH 14 // maximum length of the phone number
 
 
-int sudokuoChecker(int);
+int main(int argc, char *argv[]) {
+  FILE *fp; // input file pointer
+  FILE *outfile; // output file pointer
+  const char *filename = argv[1];
+  char *filename2; // assign after validating command line arguments
+  int i;  // index of the phonenumbre
+  int count; // trackthe phonenumbers without syntax
+  char phone[LENGTH];
 
-int main()
-{
-//This is an invalid sudoku matrix
-int matrix1[9][9]={{1,2,3,4,5,6,7,8,9},{1,2,3,4,5,6,7,8,9},
-{1,2,3,4,5,6,7,8,9},{1,2,3,4,5,6,7,8,9}, {1,2,3,4,5,6,7,8,9},{1,2,3,4,5,6,7,8,9}, {1,2,3,4,5,6,7,8,9},{1,2,3,4,5,6,7,8,9}, {1,2,3,4,5,6,7,8,9}};
-//This is an invalid sudoku matrix
-int matrix2[9][9]={{1,1,1,1,1,1,1,1,1},{2,2,2,2,2,2,2,2,2},
-{3,3,3,3,3,3,3,3,3},{4,4,4,4,4,4,4,4,4}, {5,5,5,5,5,5,5,5,5},{6,6,6,6,6,6,6,6,6}, {7,7,7,7,7,7,7,7,7},{8,8,8,8,8,8,8,8,8}, {9,9,9,9,9,9,9,9,9}};
-//This is a valid sudoku matrix
-int matrix3[9][9]={{2,5,8,1,3,7,6,4,9},{1,4,6,9,8,5,3,2,7},
-{7,9,3,2,4,6,8,5,1},{4,7,2,8,6,3,1,9,5}, {5,8,1,4,9,2,7,3,6},{6,3,9,5,7,1,4,8,2}, {3,1,5,7,2,8,9,6,4},{8,2,4,6,1,9,5,7,3}, {9,6,7,3,5,4,2,1,8}};
-if(sudokuChecker(matrix1)) printf(‘‘yes\n’’); else printf(‘‘no\n’’); if(sudokuChecker(matrix2)) printf(‘‘yes\n’’); else printf(‘‘no\n’’); if(sudokuChecker(matrix3)) printf(‘‘yes\n’’); else printf(‘‘no\n’’); }
+/* 
+*   Handle argument exceptions, 
+*   print an error message and exit the program.
+*/
 
-int sudokueChecker(int matrix[9][9])
-{
-	block = 0;
-	iblock = 0;
-	jblock = 0;
-	sum = 0; # 
-	int i;
-	int j;
+  if( argc == 3 )
+   {
+      printf("The arguments supplied are %s and %s\n", argv[1], argv[2]);
+      filename2 = argv[2];
+
+   }
+   else if( argc == 2 )
+   {
+      printf("We are creating your output file as output.txt.\n");
+      filename2 = "output.txt";
+
+   } 
+   else if ( argc < 2 )
+   {
+      printf("Two few arguments supplied. Exiting..\n");
+      return 1;
+   }
+
+   fp = fopen(filename, "r");
+   outfile = fopen(filename2, "w");
+
+/* 
+*   If the input file can not be opened, print an error message
+*   and exit the program.
+*/
+
+  if (fp == NULL)
+  {
+    printf("The input file cannot be opened. Exiting..\n");  
+    return 1; 
+  }
+
+    /* read line from file */
+    while (fgets(phone, sizeof(phone), fp))
+    {
+
+        //printf("%s\n", phone); 
+        
+        fprintf(outfile, "(");
+       // printf("(");
+        count = 0;
+        for (i = 0;; i ++)
+        {
+          if(phone[i] - '0' >= 0 && phone[i] - '0' <= 9)
+          {
+            count++;
+            fprintf(outfile, "%c", phone[i]);
+            //printf("%c", phone[i]);
+          }
+
+          if(count == 3)
+            break; // after three digits leave the loop
+        }
 
 
-	while (i < 9) // rows
-		while (j < 9) // column
-		{
-			if (j != i)
-				j++
-				i++
-			printf("\nInput element [%d][%d] : ", i, j);
-		}
+   fprintf(outfile, ") "); //to print ) after that
+
+  
+   for(i = count + 1;;i++){
+   if(phone[i] - '0' >= 0 && phone[i] - '0' <= 9)
+   { 
+       count++;
+       fprintf(outfile, "%c", phone[i]);
+    }
+
+    if(count == 6)
+      break;
+  }
+
+   fprintf(outfile, "-"); //to print - after that
+
+   for(i = count +1; strlen(phone); i++){
+   if(phone[i]-'0' >=0 && phone[i]-'0'<=9){ //to print next 4 digits
+       count++;
+       fprintf(outfile, "%c", phone[i]);
+    }
+
+    if (count == 10) 
+      break; //when count is equal to 10, exit the for loop
+
+  }
+
+    fprintf(outfile, "\n"); 
+    }
+  
+ //go to the begining of while to process next line
+  fclose(fp);
+  fclose(outfile);
+  return 0;
 }
