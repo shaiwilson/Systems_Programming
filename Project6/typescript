@@ -1,0 +1,70 @@
+Script started on Fri Oct 30 23:23:41 2015
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                           ]7;file://neon/Users/chachashai/Documents/compsci/cs221/cScripts/Scripting/Project6[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m [Kscriptclear ./date[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m ./date[K
+Enter date: 
+4.17.1999
+Invalid form
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                           ]7;file://neon/Users/chachashai/Documents/compsci/cs221/cScripts/Scripting/Project6[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m [K./date[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m ./date[K
+Enter date: 
+(3) 27-1998
+Invalid form
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                           ]7;file://neon/Users/chachashai/Documents/compsci/cs221/cScripts/Scripting/Project6[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m [K./date[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m ./date[K
+Enter date: 
+5-17-2008
+May 17, 2008
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                           ]7;file://neon/Users/chachashai/Documents/compsci/cs221/cScripts/Scripting/Project6[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m [K./date[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m ./date[K
+Enter date: 
+4/7/1999
+April 7, 1999
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                           ]7;file://neon/Users/chachashai/Documents/compsci/cs221/cScripts/Scripting/Project6[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m [K./date[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m ./date[K
+Enter date: 
+4/7/1999
+April 7, 1999
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                           ]7;file://neon/Users/chachashai/Documents/compsci/cs221/cScripts/Scripting/Project6[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m [K./date[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m ./date[K
+Enter date: 
+March 7 2015
+Invalid form
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                           ]7;file://neon/Users/chachashai/Documents/compsci/cs221/cScripts/Scripting/Project6[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m [Keexit[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/compsci/cs221/cScripts/Scripting/Project6[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
+[0m[34m➜[39m exit[K
+
+Script done on Fri Oct 30 23:24:23 2015
