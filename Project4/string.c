@@ -2,103 +2,124 @@
 #include <String.h>
 #include <stdlib.h>
 
-char *reverse(char *s);
+char *reverse(const char *s);
 char *twice(const char *s);
-char *drop(char* s, char c);
+char *drop(const char* s, char c);
 
-int main()
+/* -------------------------------------------- */
+
+int main(void)
 {
 	char s[] = "quick";
-	printf("%s\n", twice(s));
-	char u[] = "jumps over";
-	printf("%s\n", reverse(u));
-	char v[] = "lazy dog";
-	printf("%s\n", drop(v, 'o'));
+  char* resultTwice = twice(s);
+  if(resultTwice != NULL)
+  {
+    printf("%s\n", resultTwice);
+    free(resultTwice);
+  }
 
-}
+	char u[] = "jumps over";
+  char* resultReverse = reverse(u);
+  if(resultReverse != NULL)
+  {
+    printf("%s\n", resultReverse);
+    free(resultReverse);
+  }
+	
+	char v[] = "lazy dog";
+  char* resultDrop = drop(v, 'o');
+  if(resultDrop != NULL)
+  {
+    printf("%s\n", resultDrop);
+    free(resultDrop);
+  }
+	
+  return 0;
+
+} /* end main() */
 
 /*
 *	This function returns a string that contains two copies of the input string
 */ 
 
 char *twice(const char *s) {
+  int len = strlen(s);
+
 	char *result;
-	result = malloc(2*strlen(s)*sizeof(char));
-	int index = 0;
+	result = (char *) malloc(sizeof(char)* (len*2+1));
 	int i;
 
 	if(result == NULL)
 		return NULL; // heap exausted
 
-	for (i=0; i<strlen(s); i++) {
-		result[index] = s[i];
-		index++;
-	}
-	for (i=0; i<strlen(s); i++) {
-		result[index] = s[i];
-		index++;
+	for (i=0; i< len; i++) {
+		  *(result+i) = *(s+i);
+      *(result+len+i) = *(s+i);
 	}
 
-	free(result);
+	*(result+len+i)='\0';
 	return result;
-} // end twice
+
+} /* end twice() */
 
 /*
 *	This function returns the reverse of the input string
 */
 
-char *reverse(char *string) 
+char *reverse(const char *s) 
 {
-   int length, c;
-   char *begin, *end, temp;
+
+   int len = strlen(s);
+
    char *result;
-   result = malloc(2*strlen(string)*sizeof(char));
- 
-   length = strlen(string);
-   begin  = string;
-   end    = string;
+   result = (char *) malloc(sizeof (char)* (len+1));
 
    if(result == NULL)
 		return NULL; // heap exausted
  
-   for (c = 0; c < length - 1; c++)
-      end++;
- 
-   for (c = 0; c < length/2; c++)
-   {        
-      temp   = *end;
-      *end   = *begin;
-      *begin = temp;
- 
-      begin++;
-      end--;
+   int i;
+   for (i = 0; i < len; i++)
+   {
+        *(result+i) = *(s+len-1-i);
    }
-   
-   return string;
-} // end reverse
 
-char *drop(char *s, char c) {
+   *(result+i)='\0';
+  return result;
+
+} /* end reverse() */
+
+
+char *drop(const char *s, char c) {
+
+  int len = 0;
+  for(int i = 0; *(s+i) != '\0'; i++)
+    if(*(s+i) != 'c')
+      len++;
+
 	char *result;
-	result = malloc(2*strlen(s)*sizeof(char));
-    char *source = s;
-    char *dest = s;
+	result = (char *) malloc(sizeof (char)* (len+1));
 
-    if(result == NULL) 
-    	return NULL; // heap exhausted
+  if(result == NULL) 
+      return NULL; // heap exhausted
 
-    while(*source) {
-        if(*source == c) {
-            source++;
-            result++;
-        } else {
-            *dest++ = *source++;
-        }
+  char* a = result;
+  while (*s != '\0')
+  {
+    if(*s == c)
+      s++;
+    else
+    {
+      *a = *s;
+      a++;
+      s++;
+
     }
+  }
 
-    *dest = 0;
-    result = s;
-    return result;
-}
+  *(result + len) = '\0';
+  return result;
+  
+} /* end drop() */
 
 
 

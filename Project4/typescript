@@ -1,61 +1,0 @@
-Script started on Mon Oct 12 22:48:07 2015
-[1m[7m%[27m[1m[0m                                                                                                  ]7;file://neon/Users/chachashai/Documents/compsci/cs221/cScripts/Scripting/Project4[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m [K../product[?1l>[A[A[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m ./product[K
-recursive 182.280100 
-Expected: 182.280100
-[1m[7m%[27m[1m[0m                                                                                                  ]7;file://neon/Users/chachashai/Documents/compsci/cs221/cScripts/Scripting/Project4[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m [K./product       string[?1l>[A[A[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m ./string[K
-quickquick
-revo spmuj
-lazy dg
-[1m[7m%[27m[1m[0m                                                                                                  ]7;file://neon/Users/chachashai/Documents/compsci/cs221/cScripts/Scripting/Project4[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m [K./string      command -a 8 2 4[?1l>[A[A[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m ./command -a 8 2 4[K
-result = 14
-[1m[7m%[27m[1m[0m                                                                                                  ]7;file://neon/Users/chachashai/Documents/compsci/cs221/cScripts/Scripting/Project4[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m [K./command -a 8 2 4    s 10 1 9 3 3[?1l>[A[A[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m ./command -s 10 1 9 3 3[K
-result = -6
-[1m[7m%[27m[1m[0m                                                                                                  ]7;file://neon/Users/chachashai/Documents/compsci/cs221/cScripts/Scripting/Project4[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m [K./command -s 10 1 9 3 3       m 3 1 2 4[?1l>[A[A[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m ./command -m 3 1 2 4[K
-result = 24
-[1m[7m%[27m[1m[0m                                                                                                  ]7;file://neon/Users/chachashai/Documents/compsci/cs221/cScripts/Scripting/Project4[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m [Keend[?1l>[A[A[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m end[K
-zsh: parse error near `end'
-[1m[7m%[27m[1m[0m                                                                                                  ]7;file://neon/Users/chachashai/Documents/compsci/cs221/cScripts/Scripting/Project4[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m [Keexit[?1l>[A[A[0m[27m[24m[J
-[33m~/Documents/compsci/cs221/cScripts/Scripting/Project4[39m[32m[1m on[39m [34m[1mmaster[39m [0m[31m✗[39m
-[0m[34m➜[39m exit[K
-
-Script done on Mon Oct 12 22:48:50 2015

@@ -4,13 +4,70 @@
 
 int main (int argc, char *argv[])
 {
- int result;
- int c = 0;
+ int result = 0;
  int i;
- int d;
  int subtract, add, multiply;
  subtract = add = multiply = 0;
 
+ /* check for empty arguments */
+ if (argc == 1) 
+  return 0;
+
+  /*
+  * Version 2
+  * Flag can be in any position
+  */
+
+  for(i = 0; i < argc; i++)
+    {
+      if (strcmp(argv[i], "-a") == 0)
+      {
+        add = 1;
+      }
+      if (strcmp(argv[i], "-s") == 0)
+      {
+        subtract = 1;
+      }
+      if (strcmp(argv[i], "-m") == 0)
+      {
+        multiply = 1;
+      }
+      
+    }
+
+    printf("The result is: ");
+
+    for (i = 1; i < argc; i++)
+    {
+      if(argv[i][0] !='-')
+      {
+        if(subtract == 1)
+        {
+          result = (result - atoi(argv[i]));
+        }
+        if(add == 1)
+        {
+          result = (result + atoi(argv[i]));
+        }
+        if(multiply == 1)
+        {
+          result = (result * atoi(argv[i]));
+        }
+
+      }
+    }
+
+      printf("%d\n", result);
+
+  return 0;
+
+} // end main
+
+
+/*
+*   Version 1
+*   Flag can only be in position argv[1]
+*
     while (--argc > 0 && (*++argv)[0] == '-')
     {
     	 c = *++argv[0];
@@ -33,6 +90,7 @@ int main (int argc, char *argv[])
            }
 
         result = atoi(argv[0]);
+
 		for (i=1; i< argc; i++) {
 			d = atoi(argv[i]);
 			if (add == 1)
@@ -51,4 +109,5 @@ int main (int argc, char *argv[])
 
  		printf("result = %d\n", result);
 
-} // end main
+    */
+
