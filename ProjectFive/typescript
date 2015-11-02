@@ -1,0 +1,29 @@
+Script started on Sun Oct 25 23:46:07 2015
+[1m[7m%[27m[1m[0m                                                                                                        ]7;file://neon/Users/chachashai/Documents/Compsci/cs221/cScripts/Scripting/project5[0m[27m[24m[J
+[33m~/Documents/Compsci/cs221/cScripts/Scripting/project5[39m[32m[1m on[39m [34m[1mmaster[39m [0m[32m✔[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/Compsci/cs221/cScripts/Scripting/project5[39m[32m[1m on[39m [34m[1mmaster[39m [0m[32m✔[39m
+[0m[34m➜[39m [K../struct[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/Compsci/cs221/cScripts/Scripting/project5[39m[32m[1m on[39m [34m[1mmaster[39m [0m[32m✔[39m
+[0m[34m➜[39m ./struct[K
+area is -40
+center is (4,4)
+moved to (5,14) and (13,9)
+inside function test result is 0
+[1m[7m%[27m[1m[0m                                                                                                        ]7;file://neon/Users/chachashai/Documents/Compsci/cs221/cScripts/Scripting/project5[0m[27m[24m[J
+[33m~/Documents/Compsci/cs221/cScripts/Scripting/project5[39m[32m[1m on[39m [34m[1mmaster[39m [0m[32m✔[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/Compsci/cs221/cScripts/Scripting/project5[39m[32m[1m on[39m [34m[1mmaster[39m [0m[32m✔[39m
+[0m[34m➜[39m [Keend[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/Compsci/cs221/cScripts/Scripting/project5[39m[32m[1m on[39m [34m[1mmaster[39m [0m[32m✔[39m
+[0m[34m➜[39m end[K
+zsh: parse error near `end'
+[1m[7m%[27m[1m[0m                                                                                                        ]7;file://neon/Users/chachashai/Documents/Compsci/cs221/cScripts/Scripting/project5[0m[27m[24m[J
+[33m~/Documents/Compsci/cs221/cScripts/Scripting/project5[39m[32m[1m on[39m [34m[1mmaster[39m [0m[32m✔[39m
+[0m[34m➜[39m [K[?1h=[A[A[0m[27m[24m[J
+[33m~/Documents/Compsci/cs221/cScripts/Scripting/project5[39m[32m[1m on[39m [34m[1mmaster[39m [0m[32m✔[39m
+[0m[34m➜[39m [Keexit[?1l>[A[A[0m[27m[24m[J
+[33m~/Documents/Compsci/cs221/cScripts/Scripting/project5[39m[32m[1m on[39m [34m[1mmaster[39m [0m[32m✔[39m
+[0m[34m➜[39m exit[K
+
+Script done on Sun Oct 25 23:46:15 2015
